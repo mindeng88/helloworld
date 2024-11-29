@@ -37,7 +37,11 @@ pipeline {
             }
         }
     }
-
+    stage('List Files') {
+        steps {
+        sh 'ls -al'
+        }
+    }
     post {
         always {
             echo 'Cleaning up...'
