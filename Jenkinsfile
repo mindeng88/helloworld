@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // 从 GitHub 仓库检出代码
-                git 'https://github.com/mindeng88/hello-world-app.git'
+                git 'https://github.com/mindeng88/helloworld.git'
             }
         }
 
